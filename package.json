@@ -1,0 +1,23 @@
+{
+  "name": "moreimports",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "prepare": "bun run genCode.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.9",
+    "css-select": "^6.0.0",
+    "es-toolkit": "^1.44.0",
+    "htmlparser2": "^10.1.0",
+    "ky": "^1.14.3",
+    "ts-to-zod": "^5.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "opendal": "^0.49.2",
+    "zod": "^4.3.6"
+  }
+}
