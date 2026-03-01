@@ -48,6 +48,7 @@ You can also import with a direct protocol URL:
 ```ts
 import customModule from '<schema>://<base64-options>/path/to/module.js'
 
+import httpsModule from 'https://docs.deno.com/examples/scripts/hello_world.ts'
 import s3Module from 's3://<base64-options>/path/to/module.js'
 import fsModule from 'fs://<base64-options>/path/to/module.js'
 import httpModule from 'http://<base64-options>/path/to/module.js'
