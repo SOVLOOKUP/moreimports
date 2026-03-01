@@ -1,5 +1,6 @@
 import type { BunPlugin } from "bun";
 import { ProtocolLoader } from "./protocal";
+export * from "./protocal";
 
 const protocolLoader = new ProtocolLoader();
 
