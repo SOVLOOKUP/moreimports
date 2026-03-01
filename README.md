@@ -25,7 +25,9 @@ Use `newURL` first to build a module specifier (options are encoded automaticall
 ### Import Examples
 
 ```ts
-import { newURL } from 'moreimports'
+import { newURL, moreImports } from 'moreimports'
+
+Bun.plugin(moreImports)
 
 const specifier = newURL(
   's3',
